@@ -1,0 +1,194 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Raleway", sans-serif;
+	/* background-color: grey; */
+}
+
+/* SEKCJA NAVIGACJI */
+
+.nav {
+	height: 50px;
+	text-align: center;
+	background-color: #333;
+	line-height: 50px;
+}
+
+.nav-item {
+	display: inline-block;
+}
+
+.nav-item a {
+	padding: 0 100px;
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold;
+	letter-spacing: 2px;
+	transition: 0.3s;
+}
+.nav-item a:hover {
+	color: yellowgreen;
+}
+
+/* SEKCJA HEADER */
+
+.header-img {
+	position: relative;
+	height: 300px;
+	background-image: url("../img/mountains_winter-scene.jpg");
+	background-size: cover;
+	background-position: 0 50%;
+}
+.header-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
+.header-text h1 {
+	margin-bottom: 10px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+.header-bg {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 114, 19, 0.151);
+}
+
+/* SEKCJA FOOTER */
+
+footer {
+	height: 80px;
+	background-color: #333;
+	color: #ddd;
+	font-size: 20px;
+	text-align: center;
+	line-height: 80px;
+}
+.icon-box {
+	margin-left: 10px;
+}
+.icon-box a {
+	color: #fff;
+	margin: 0 10px;
+	font-size: 30px;
+	transition: color 0.3s;
+}
+.icon-box a:hover {
+	color: yellowgreen;
+}
+
+/* SEKCJA MAIN */
+
+main {
+	width: 1200px;
+	margin: 50px auto;
+}
+
+main h2 {
+	margin-bottom: 30px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.about-us-box {
+	position: relative;
+	height: 300px;
+	margin: 40px 0;
+	background-attachment: fixed;
+	background-position: center;
+	border-top-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+	overflow: hidden;
+}
+.top {
+	background-image: url("../img/coffe.jpg");
+}
+.middle {
+	background-image: url("../img/phone.jpg");
+}
+.bottom {
+	background-image: url("../img/office.jpg");
+}
+.about-us-text {
+	position: absolute;
+	bottom: 20px;
+	padding: 20px 40px;
+	text-align: center;
+	color: #fff;
+}
+.about-us-text h3 {
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+.about-us-bg {
+	position: absolute;
+	bottom: 0;
+	height: 45%;
+	width: 100%;
+	background-color: rgba(27, 27, 27, 0.8);
+}
+
+/* SEKCJA USŁUGI */
+
+.services-list{
+	margin: 0 auto;
+	width: 300px;
+}
+
+/* SEKCJA CENNIK */
+
+table {
+	border-spacing: 0;
+	margin: auto;
+}
+
+table,
+td,
+th {
+	border: 1px solid black;
+	text-align: center;
+}
+
+td,
+th {
+	padding: 5px 20px;
+	font-size: 15px;
+}
+
+thead {
+	background-color: yellowgreen;
+	font-weight: 700;
+}
+
+tbody {
+	background-color: rgba(202, 202, 202, 0.342);
+}
+
+tfoot {
+	background-color: royalblue;
+}
+
+/* SEKCJA KONTAKT */
+
+.contact-detail {
+	text-align: center;
+	padding: 10px;
+	font-size: 30px;
+	transition: color 0.3s;
+}
+.contact-detail .fa-solid {
+	margin-right: 20px;
+}
+.contact-detail:hover {
+	color: yellowgreen;
+}
